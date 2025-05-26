@@ -1,6 +1,6 @@
-﻿using EmployeesApp.Web.Models;
+﻿using EmployeesApp.Domain.Employee;
 
-namespace EmployeesApp.Web.Services
+namespace EmployeesApp.Application.Employee
 {
     public interface IEmployeeService
     {
