@@ -1,6 +1,6 @@
-﻿using EmployeesApp.Domain.Employee;
+﻿using EmployeesApp.Domain;
 
-namespace EmployeesApp.Application.Employee
+namespace EmployeesApp.Application.Employeen
 {
     public interface IEmployeeService
     {

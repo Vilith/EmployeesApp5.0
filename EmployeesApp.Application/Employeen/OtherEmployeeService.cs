@@ -1,40 +1,40 @@
-﻿using EmployeesApp.Domain.Employee;
+﻿using EmployeesApp.Domain;
 
-namespace EmployeesApp.Application.Employee
+namespace EmployeesApp.Application.Employeen
 {
-    public class EmployeeService : IEmployeeService
+    public class OtherEmployeeService : IEmployeeService
     {
         readonly List<Employee> employees =
         [
             new Employee()
             {
-                Id = 562,
-                Name = "Anders Hejlsberg",
-                Email = "Anders.Hejlsberg@outlook.com",
+                Id = 1000,
+                Name = "Karl XII",
+                Email = "karl.xii@outlook.com",
             },
             new Employee()
             {
-                Id = 62,
-                Name = "Kathleen Dollard",
-                Email = "k.d@outlook.com",
+                Id = 2002,
+                Name = "Drottning Kristina",
+                Email = "admin.drottning kristina@outlook.com",
             },
             new Employee()
             {
-                Id = 15662,
-                Name = "Mads Torgersen",
-                Email = "Admin.Torgersen@outlook.com",
+                Id = 4400,
+                Name = "Gustav III",
+                Email = "gustav.iii@outlook.com",
             },
             new Employee()
             {
-                Id = 52,
-                Name = "Scott Hanselman",
-                Email = "s.h@outlook.com",
+                Id = 3030,
+                Name = "Margareta Valdemarsdotter",
+                Email = "margareta.valdemarsdotter@outlook.com",
             },
             new Employee()
             {
-                Id = 563,
-                Name = "Jon Skeet",
-                Email = "j.s@outlook.com",
+                Id = 5555,
+                Name = "Gustav Vasa",
+                Email = "gustav.vasa@outlook.com",
             },
         ];
 

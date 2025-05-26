@@ -1,5 +1,5 @@
 using EmployeesApp.Web.Models;
-using EmployeesApp.Web.Services;
+
 
 namespace EmployeesApp.Web
 {
@@ -12,7 +12,7 @@ namespace EmployeesApp.Web
             //builder.Services.AddTransient<EmployeeService>();
             //builder.Services.AddSingleton<EmployeeService>();
             //builder.Services.AddSingleton<IEmployeeService, EmployeeService>();
-            builder.Services.AddSingleton<IEmployeeService, OtherEmployeeService>();
+            builder.Services.AddSingleton<IEmployeeService, EmployeeService>();
             builder.Services.AddScoped<MyLogServiceFilterAttribute>();
             var app = builder.Build();
             app.UseStaticFiles();
