@@ -10,8 +10,4 @@
     <ProjectReference Include="..\EmployeesApp.Application\EmployeesApp.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Persistance\" />
-  </ItemGroup>
-
 </Project>
